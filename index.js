@@ -119,7 +119,7 @@ app.put('/assessments/:id', authenticateToken, async (req, res) => {
   }
 });
 
-// Delete an assessment
+// Delete an assessments
 app.delete('/assessments/:id', async (req, res) => {
     const { id } = req.params;
     try {
